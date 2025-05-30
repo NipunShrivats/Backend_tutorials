@@ -1,10 +1,10 @@
-<!-- Backend NodeJs -->
+## Backend NodeJs
 
-// A javaScript Runtime environment
+### A javaScript Runtime environment
 
-// Node Deals with server
-// JS Deals with Browser
+1. Node Deals with server
+2. JS Deals with Browser
 
-<!-- global -->
+### global
 
 globalThis is a new feature introduced in ECMAScript 2020 (ES11) that provied a standard way to access the global object in any JS environmenty
