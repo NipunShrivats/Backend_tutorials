@@ -63,12 +63,12 @@ const file = __dirname;
 // -----------------------------------
 
 // 5. delete file
-// const deleteFile = async () => {
-//   try {
-//     await fs.unlink(filePath);
-//     console.log("file deleted");
-//   } catch (err) {
-//     console.log(err);
-//   }
-// };
-// deleteFile();
+const deleteFile = async () => {
+  try {
+    await fs.unlink(filePath);
+    console.log("file deleted");
+  } catch (err) {
+    console.log(err);
+  }
+};
+deleteFile();

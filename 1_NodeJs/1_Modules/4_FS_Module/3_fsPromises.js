@@ -6,6 +6,8 @@ const fileName = "fsPromises.txt";
 const filePath = path.join(__dirname, fileName);
 console.log(filePath);
 
+// ---------------------------------------
+
 // Why .then() and .catch()?
 // .then() ensures clear chaining of multiple asynchronous operations.
 // .catch() centralizes error handling, making it easy to debug and manage failures.
