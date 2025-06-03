@@ -11,8 +11,8 @@ const server = http.createServer((req, res) => {
     res.write("This is source code");
     res.end();
   } else if (req.url === "/contact") {
-    res.setHeader("content-Type", "text/plain");
-    res.write("Call me");
+    res.setHeader("content-Type", "text/HTML");
+    res.write("<h1>Call me</h1>");
     res.end();
   }
 });
