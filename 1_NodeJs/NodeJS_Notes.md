@@ -21,7 +21,7 @@ globalThis is a new feature introduced in ECMAScript 2020 (ES11) that provied a 
    a. Specifies the main entry point file for the application.
    b. The file executed when the application starts.
 
-### Nodemon
+## Nodemon
 
 1. Nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
@@ -31,7 +31,7 @@ globalThis is a new feature introduced in ECMAScript 2020 (ES11) that provied a 
 
 use --> "node --watching app.js"
 
-### What is npm?
+## What is npm?
 
 1. npm is a popular package manager which comes bundled with Node.js.
 2. It is a CLI tool used to install, update, and remove external packages.
@@ -61,7 +61,7 @@ use --> "node --watching app.js"
    c. package-lock.json includes exact version of all packages that you install. It makes sure to
    prevent breaking changes in newer versions of package.
 
-### Synchronous VS Asynchronous in Node Js
+## Synchronous VS Asynchronous in Node Js
 
 1. Synchronous Code
    a. Tasks are executed Sequentially. [also known as blocking tasks]
